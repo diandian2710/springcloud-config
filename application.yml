@@ -1,9 +1,13 @@
 spring:
   profiles:
     active: dev
+
 ---
 spring:
   profiles: dev
+  name: springcloud-config-dev
+
 ---
 spring:
   profiles: test
+  name: springcloud-config-test
